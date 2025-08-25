@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deshi Deals || Home</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- icon cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind and daisy ui  cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+
+   
+  <body class="font-work-sans bg-[rgba(17,17,17,0.05)]">
+    <!-- header -->
+    <header class="bg-white">
+      <!-- nav -->
+      <nav class="h-[111px] shadow-sm flex items-center justify-center gap-6">
+        <!-- logo -->
+        <figure class="w-20">
+          <img src="./assets/logo.png" alt="" />
+        </figure>
+        <!-- logo name -->
+        <div>
+          <h1 class="text-5xl text-[#E71580]">
+            DESHI <span class="font-bold">DEALS</span>
+          </h1>
+          <p class="text-xl text-[#797075]">Cheap Price , Best Quality</p>
+        </div>
+      </nav>
+
+      <!-- hero  -->
+      <section
+        class="flex flex-col items-center justify-center bg-gradient-to-b from-[#FFFFFF] to-[#F6DDEA] mt-1 pt-36"
+      >
+        <!-- hero title -->
+        <h1 class="text-6xl font-bold text-[#111111] text-center mb-10">
+          Purchase TK 200 or above & get <br />
+          <span class="text-[#E527B2]">20% off</span>
+        </h1>
+
+        <!-- promo code -->
+        <div class="flex items-center justify-center gap-6">
+          <p>Use Promo Code</p>
+          <p
+            class="py-3 px-7 bg-[#E527B2] rounded-md cursor-pointer text-white"
+          >
+            SELL200
+          </p>
+        </div>
+
+        <!-- hero image -->
+        <img class="-mb-32" src="./assets/hero-bg.png" alt="" />
+      </section>
+    </header>
+
+    <!-- main -->
+    <main class="max-w-11/12 mx-auto py-60">
+      <div class="grid grid-cols-12 gap-24">
+        <!-- product section -->
+        <section class="col-span-9">
+          <h2 class="text-[40px] font-semibold text-[#111111] mb-8">Kitchenware</h2>
+          <!-- container of products -->
+          <div id="products-container" class="grid grid-cols-3 gap-6">
+
+            <!-- product 1 -->
+            <div class="card bg-base-100 max-w-80 shadow-sm">
+              <figure class="m-4 rounded-xl bg-slate-300">
+                <img
+                  src="./assets/kitchen-1.png"
+                  alt="Shoes"
+                  class=" py-8 "
+                />
+              </figure>
+              <div class="flex flex-col gap-1 m-4 items-center text-center">
+                <p class="text-xl">
+                  <i class="ri-star-fill text-xl text-yellow-400"></i>
+                  <i class="ri-star-fill text-xl text-yellow-400"></i>
+                  <i class="ri-star-fill text-xl text-yellow-400"></i>
+                  <i class="ri-star-line text-yellow-400"></i>
+                  <i class="ri-star-line text-yellow-400"></i>
+                </p>
+                <h2 class="card-title">K. Accessories</h2>
+                <p class="text-[rgba(17,17,17,0.5)] mb-3">
+                  <span>39.00</span> TK
+                </p>
+                <div class="card-actions w-full">
+                  <button class="btn bg-[#E527B2] w-full text-white block">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- product 2 -->
+            <div class="card bg-base-100 max-w-80 shadow-sm">
+              <figure class="m-4 rounded-xl bg-slate-300">
+                <img
+                  src="./assets/kitchen-2.png"
+                  alt="Shoes"
+                  class=" py-8 "
+                />
+              </figure>
+              <div class="flex flex-col gap-1 m-4 items-center text-center">
+                <p class="text-xl">
+                  <i class="ri-star-fill text-xl text-yellow-400"></i>
+                  <i class="ri-star-fill text-xl text-yellow-400"></i>
+                  <i class="ri-star-fill text-xl text-yellow-400"></i>
+                  <i class="ri-star-fill text-xl text-yellow-400"></i>
+                  <i class="ri-star-line text-yellow-400"></i>
+                </p>
+                <h2 class="card-title">K. Accessories</h2>
+                <p class="text-[rgba(17,17,17,0.5)] mb-3">
+                  <span>150.00</span> TK
+                </p>
+                <div class="card-actions w-full">
+                  <button class="btn bg-[#E527B2] w-full text-white block">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- product 3 -->
+            <div class="card bg-base-100 max-w-80 shadow-sm">
+              <figure class="m-4 rounded-xl bg-slate-300">
+                <img
+                  src="./assets/kitchen-3.png"
+                  alt="Shoes"
+                  class=" py-8 "
+                />
+              </figure>
+              <div class="flex flex-col gap-1 m-4 items-center text-center">
+                <p class="text-xl">
+                
+                  <i class="ri-star-line text-yellow-400"></i>
+                  <i class="ri-star-line text-yellow-400"></i>
+                  <i class="ri-star-line text-yellow-400"></i>
+                  <i class="ri-star-line text-yellow-400"></i>
+                  <i class="ri-star-line text-yellow-400"></i>
+                </p>
+                <h2 class="card-title">K. Accessories</h2>
+                <p class="text-[rgba(17,17,17,0.5)] mb-3">
+                  <span>50.00</span> TK
+                </p>
+                <div class="card-actions w-full">
+                  <button class="btn bg-[#E527B2] w-full text-white block">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- aside cart section  -->
+        <aside class="bg-green-400 col-span-3">hello</aside>
+      </div>
+    </main>
+  </body>
+</html>
