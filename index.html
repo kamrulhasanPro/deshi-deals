@@ -59,7 +59,7 @@
         <!-- promo code -->
         <div class="flex items-center justify-center gap-6">
           <p>Use Promo Code</p>
-          <p
+          <p id="copy-promo"
             class="py-3 px-7 bg-[#E527B2] rounded-md cursor-pointer text-white"
           >
             SELL200
@@ -337,13 +337,15 @@
           <!-- cart aside  -->
           <div class="h-[90%] p-8 bg-white rounded-sm">
             <!-- product list  -->
-            <ul class="pb-3 border-b-2 border-gray-300">
-              <li class="flex items-center justify-between bg-[#F4F1F1] rounded-md py-2 ">
-                <img src="./assets/kitchen-1.png" class="w-12" alt="">
-                <div>
-                  <h5>K. Accessories</h5>
-                  <p>500 Tk</p>
-                </div>
+            <ul id="product-cart" class="pb-3 border-b-2 border-gray-300">
+              <li>
+                <!-- <div class="flex items-center justify-between bg-[#F4F1F1] rounded-md py-2 ">
+                  <img src="./assets/kitchen-1.png" class="w-12" alt="">
+                  <div>
+                    <h5>K. Accessories</h5>
+                    <p>500 Tk</p>
+                  </div>
+                </div> -->
               </li>
             </ul>
 
@@ -354,7 +356,7 @@
               <p class="font-semibold">Total: <span id="total" class="font-normal">00</span>Tk</p>
              </div>
 
-             <button class="py-2 px-6 rounded-sm mt-3 cursor-pointer bg-[#E527B2] w-full text-white">Make Purchase</button>
+             <button id="purchase" class="py-2 px-6 rounded-sm mt-3 cursor-pointer bg-[#E527B2] w-full text-white">Make Purchase</button>
           </div>
         </aside>
       </div>
